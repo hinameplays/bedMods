@@ -1,3 +1,5 @@
+import {main} from './invoke.js';
+
 var serverSystem = server.registerSystem(0, 0);
 
 // Setup which events to listen for
@@ -6,10 +8,12 @@ serverSystem.initialize = function () {
 	// system.registerEventData(...)
 
 	// Register any components you will attach to game objects
-	// system.registerComponent(...)
+	//system.registerComponent();
+
 
 	// Set up any events you wish to listen to
 	serverSystem.listenForEvent("bedcapabilities:pinky", eventData => receivePinkyMessage(eventData));
+	run(invoke.main());
 
 
 	// Enable full logging, useful for seeing errors, you will probably want to disable this for
