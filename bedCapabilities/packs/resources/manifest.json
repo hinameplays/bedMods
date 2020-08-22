@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "bedCapabilities Resources",
+    "description": "Shared libraries and functions to improve modifiability.",
+    "uuid": "a0ef4a68-f212-4b62-bacf-202a508dec38",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Resources for bedCapabilities",
+      "type": "resources",
+      "uuid": "8b8acea2-33fc-4c5f-bbfb-be40d6ea780b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
