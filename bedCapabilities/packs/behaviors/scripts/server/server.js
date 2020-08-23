@@ -21,8 +21,6 @@ serverSystem.initialize = function () {
 	scriptLoggerConfig.data.log_information = true;
 	scriptLoggerConfig.data.log_warnings = true;
 	serverSystem.broadcastEvent("minecraft:script_logger_config", scriptLoggerConfig);
-
-	
 }
 
 // per-tick updates
@@ -38,5 +36,5 @@ function receivePinkyMessage(parameters) {
 		serverSystem.broadcastEvent("minecraft:display_chat_event", chatEventData);
 	}
 	// call sub-file handling all my stuff, that way i dont have to feel guilty for not commenting everything
-	main("Registered invoke.main() as handler for submods");
+	main("Registered invoke.main() as handler for mods.");
 }

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "lucky:minicham",
+      "materials": { "default": "zombie" },
+      "textures": { "default": "textures/entity/minicham" },
+      "geometry": { "default": "geometry.champ" },
+      "scripts": {
+        "pre_animation": [
+          "variable.squish_factor = (query.previous_squish_value + (query.current_squish_value - query.previous_squish_value) * query.frame_alpha);",
+          "variable.bounce = 1 / ((variable.squish_factor / (query.variant * 0.5 + 1)) + 1);",
+          "variable.horizontal_scale_amount = variable.bounce * query.variant;",
+          "variable.vertical_scale_amount = (1 / variable.bounce) * query.variant;"
+        ]
+      },
+
+      "render_controllers": [ "controller.render.zombie" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "base_color": "#657dc6",
+        "overlay_color": "#889cd9"
+      }
+    }
+  }
+}
