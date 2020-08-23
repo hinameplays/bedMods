@@ -1,24 +1,24 @@
 {
   "format_version": 1,
   "header": {
-    "name": "bedCapabilities Behaviors",
+    "name": "MCPE EXT",
     "description": "Shared libraries and functions to improve modifiability.",
     "uuid": "d4d5615c-dc08-448c-ac76-17c59493db5c",
     "version": [
-      1,
       0,
-      0
+      2,
+      1
     ]
   },
   "modules": [
     {
-      "description": "behaviours for bedCapabilities",
+      "description": "Behaviour of MCPE EXT",
       "type": "client_data",
       "uuid": "0ecc6047-a80b-45d7-90c7-c477471cc7cf",
       "version": [
-        1,
         0,
-        0
+        2,
+        1
       ]
     }
   ],
