@@ -22,8 +22,7 @@ serverSystem.initialize = function () {
 	scriptLoggerConfig.data.log_warnings = true;
 	serverSystem.broadcastEvent("minecraft:script_logger_config", scriptLoggerConfig);
 
-	// call sub-file handling all my stuff, that way i dont have to feel guilty for not commenting everything
-	main();
+	
 }
 
 // per-tick updates
@@ -38,4 +37,6 @@ function receivePinkyMessage(parameters) {
 		chatEventData.data.message = "The same thing we do every night Client. TRY TO TAKE OVER THE WORLD.";
 		serverSystem.broadcastEvent("minecraft:display_chat_event", chatEventData);
 	}
+	// call sub-file handling all my stuff, that way i dont have to feel guilty for not commenting everything
+	main("Registered invoke.main() as handler for submods");
 }
