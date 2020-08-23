@@ -1,0 +1,32 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.lucky": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "lucky": "(1.0)"
+            }
+          ],
+          "on_entry": [
+            "/function LuckyUniverse",
+            "/function AstralLuckyUniverse"
+
+          ]
+        },
+        "lucky": {
+          "transitions": [
+            {
+              "default": "(1.0)"
+            }
+          ],
+          "on_entry": [
+            "/function LuckyUniverse",
+            "/function AstralLuckyUniverse"
+          ]
+        }
+      }
+    }
+  }
+}
