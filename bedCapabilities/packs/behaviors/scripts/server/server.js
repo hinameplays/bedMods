@@ -10,11 +10,8 @@ serverSystem.initialize = function () {
 	// Register any components you will attach to game objects
 	//system.registerComponent();
 
-
 	// Set up any events you wish to listen to
 	serverSystem.listenForEvent("bedcapabilities:pinky", eventData => receivePinkyMessage(eventData));
-	run(invoke.main());
-
 
 	// Enable full logging, useful for seeing errors, you will probably want to disable this for
 	// release versions of your scripts.
@@ -24,6 +21,9 @@ serverSystem.initialize = function () {
 	scriptLoggerConfig.data.log_information = true;
 	scriptLoggerConfig.data.log_warnings = true;
 	serverSystem.broadcastEvent("minecraft:script_logger_config", scriptLoggerConfig);
+
+	// call sub-file handling all my stuff, that way i dont have to feel guilty for not commenting everything
+	main();
 }
 
 // per-tick updates
