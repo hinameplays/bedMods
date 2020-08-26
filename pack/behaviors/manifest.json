@@ -1,0 +1,35 @@
+{
+  "format_version": 1,
+  "header": {
+    "name": "MCPE EXT",
+    "description": "Shared libraries and functions to improve modifiability.",
+    "uuid": "d4d5615c-dc08-448c-ac76-17c59493db5c",
+    "version": [
+      0,
+      2,
+      1
+    ]
+  },
+  "modules": [
+    {
+      "description": "Behaviour of MCPE EXT",
+      "type": "client_data",
+      "uuid": "0ecc6047-a80b-45d7-90c7-c477471cc7cf",
+      "version": [
+        0,
+        2,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a0ef4a68-f212-4b62-bacf-202a508dec38",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

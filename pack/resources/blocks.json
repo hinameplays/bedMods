@@ -1,0 +1,88 @@
+{
+ "format_version":
+  [ 1,  1, 0 ],
+ "effect99:lucky_block": {
+  "textures": "lucky_block",
+  "sound": "stone"
+ },
+ "effect99:unlucky_block": {
+  "textures": "unlucky_block",
+  "sound": "metal"
+ },
+ "effect99:good_luck_block": {
+  "textures": "good_luck_block",
+  "sound": "glass"
+ },
+ "effect99:lucky_drops": {
+  "textures": "lucky_drops",
+  "sound": "wood"
+ },
+ "effect99:setdrop": {
+  "textures": "setdrop",
+  "sound": "stone"
+ },
+ "effect99:lucky_mobs": {
+  "textures": "lucky_mobs",
+  "sound": "xp"
+ },
+ "effect99:lucky_structures": {
+  "textures": "lucky_structures",
+  "sound": "stone"
+ },
+ "effect99:setdrop_potato": {
+  "textures": "setdrop_potato",
+  "sound": "stone"
+ },
+ "effect99:setdrop_ores": {
+  "textures": "setdrop_ores",
+  "sound": "stone"
+ },
+ "effect99:setdrop2": {
+  "textures": "setdrop2",
+  "sound": "stone"
+ },
+ "effect99:withered_lucky_block": {
+  "textures": "withered_lucky_block",
+  "sound": "stone"
+  },
+  "effect99:astral_block": {
+  "textures": "astral_block",
+  "sound": "metal"
+  },
+  "effect99:assetdrop": {
+  "textures": "assetdrop",
+  "sound": "stone"
+  },
+  "effect99:setdrop_ores2": {
+  "textures": "setdrop_ores2",
+  "sound": "stone"
+  },
+  "effect99:setdrop_ender": {
+  "textures": "setdrop_ender",
+  "sound": "stone"
+  },
+ "effect99:cloud_block": {
+  "textures": "cloud_block",
+  "sound": "cloth"
+  },
+ "effect99:fake_gold_block": {
+  "textures": "fake_gold_block",
+  "sound": "stone"
+  },
+ "effect99:meteor_block": {
+  "textures": "meteor_block",
+  "sound": "stone"
+  },
+ "effect99:quick_sand_block": {
+  "textures": "quick_sand_block",
+  "sound": "sand"
+  },
+ "effect99:quick_tiles_block": {
+  "textures": "quick_tiles_block",
+  "sound": "stone"
+  },
+ "effect99:launchpad": {
+  "textures": "launchpad",
+  "sound": "stone"
+ }
+}
