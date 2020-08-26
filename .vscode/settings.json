@@ -1,6 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "creation tool/lib/commons-cli-1.4.jar"
-    ]
-}
