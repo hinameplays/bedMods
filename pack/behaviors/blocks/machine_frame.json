@@ -7,9 +7,8 @@
       "register_to_creative_menu": true
      },
      "components": {
-         "minecraft:loot": "hinameplays:machine_frame",
-         "minecraft:destroy_time": 4,
-         "minecraft:explosion_resistance": 10000,
+         "minecraft:destroy_time": 2,
+         "minecraft:explosion_resistance": 1000000,
          "minecraft:block_light_emission": 0,
          "minecraft:block_light_absorption": 1,
          "minecraft:map_color": "#426242"

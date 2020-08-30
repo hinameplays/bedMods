@@ -5,7 +5,7 @@
     "description": "Shared libraries and functions to improve modifiability.",
     "uuid": "d4d5615c-dc08-448c-ac76-17c59493db5c",
     "version": [
-      0,
+      1,
       2,
       1
     ]
@@ -16,7 +16,7 @@
       "type": "client_data",
       "uuid": "0ecc6047-a80b-45d7-90c7-c477471cc7cf",
       "version": [
-        0,
+        1,
         2,
         1
       ]
