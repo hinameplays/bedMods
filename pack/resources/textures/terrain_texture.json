@@ -4,26 +4,6 @@
  "padding": 8,
  "num_mip_levels": 4,
  "texture_data": {
-  "lucky_block": {"textures": ["textures/blocks/lucky_block"] },
-  "unlucky_block": {"textures": ["textures/blocks/unlucky_block"] },
-  "good_luck_block": {"textures": ["textures/blocks/good_luck_block"] },
-  "lucky_drops": { "textures": [ "textures/blocks/lucky_drops"] },
-  "lucky_mobs": { "textures": [ "textures/blocks/lucky_mobs"] },
-  "lucky_structures": { "textures": [ "textures/blocks/lucky_structures"] },
-  "withered_lucky_block": { "textures": [ "textures/blocks/withered_lucky_block" ] },
-  "astral_block": { "textures": [ "textures/blocks/astral_block"] },
-  "setdrop": { "textures": [ "textures/blocks/setdrop"] },
-  "setdrop_potato": { "textures": [ "textures/blocks/setdrop_potato"] },
-  "setdrop_ores": { "textures": [ "textures/blocks/setdrop_ores"] },
-  "setdrop2": { "textures": [ "textures/blocks/setdrop2"] },
-  "setdrop_ores2": { "textures": [ "textures/blocks/setdrop_ores2"] },
-  "setdrop_ender": { "textures": [ "textures/blocks/setdrop_ender"] },
-  "assetdrop": { "textures": [ "textures/blocks/assetdrop"] },
-  "cloud_block": { "textures": [ "textures/blocks/cloud_block"] },
-  "fake_gold_block": { "textures": [ "textures/blocks/fake_gold_block"] },
-  "meteor_block": { "textures": [ "textures/blocks/meteor_block"] },
-  "quick_sand_block": { "textures": [ "textures/blocks/quick_sand_block"] },
-  "quick_tiles_block": { "textures": [ "textures/blocks/quick_tiles_block"] },
-  "launchpad": { "textures": [ "textures/blocks/launchpad"] }
+  "machine_frame": {"textures": ["textures/blocks/machine_frame"] }
  }
 }
