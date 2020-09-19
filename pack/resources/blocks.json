@@ -1,12 +1,42 @@
 {
  "format_version":
   [ 1,  1, 0 ],
- "hinameplays:machine_frame": {
+ "machine_frame": {
   "textures": "machine_frame",
   "sound": "stone"
  },
- "hinameplays:energy_conduit":{ 
-    "textures": "energy_conduit",
+ "energy_conduit":{ 
+    "textures": {
+      "down" : "blast_furnace_top",
+      "east" : "blast_furnace_side",
+      "north" : "blast_furnace_side",
+      "south" : "blast_furnace_front_off",
+      "up" : "blast_furnace_top",
+      "west" : "blast_furnace_side"
+    },
     "sound": "iron_bars" 
+ },
+ "blast_furnace" : {
+    "sound" : "stone",
+    "textures" : {
+       "down" : "blast_furnace_top",
+       "east" : "blast_furnace_side",
+       "north" : "blast_furnace_side",
+       "south" : "blast_furnace_front_off",
+       "up" : "blast_furnace_top",
+       "west" : "blast_furnace_side"
+    }
+ },
+ "birch_door" : {
+    "sound" : "wood",
+    "textures" : {
+       "down" : "door_lower",
+       "side" : "door_upper",
+       "up" : "door_lower"
+    }
+ },
+ "birch_fence_gate" : {
+    "sound" : "wood",
+    "textures" : "wood_birch"
  }
 }

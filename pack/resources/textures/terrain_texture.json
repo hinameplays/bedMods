@@ -4,7 +4,14 @@
  "padding": 8,
  "num_mip_levels": 4,
  "texture_data": {
-  "machine_frame": {"textures": ["textures/blocks/machine_frame"] }
-  "energy_conduit": {"textures": ["textures/blocks/energy_conduit"] }
+  "machine_frame": {"textures": ["textures/blocks/machine_frame"] },
+  "energy_conduit" : {
+    "textures" : [
+       "textures/blocks/energy_conduit_center",
+       "textures/blocks/energy_conduit_connect",
+       "textures/blocks/energy_conduit_top"
+    ]
+ }
+
  }
 }
