@@ -2,17 +2,16 @@
     "format_version": "1.10.0",
     "minecraft:block": {
      "description": {
-      "identifier": "hinameplays:machine_frame",
+      "identifier": "hinameplays:energy_furnace",
       "is_experimental": false,
       "register_to_creative_menu": true
      },
      "components": {
          "minecraft:destroy_time": 1,
          "minecraft:explosion_resistance": 1000000,
-         "minecraft:block_light_emission": 0,
-         "minecraft:block_light_absorption": 1,
+         "minecraft:block_light_emission": 1,
          "minecraft:map_color": "#426242",
-         "minecraft:loot": "loot_tables/blocks/single/machine_frame.json"
+         "minecraft:loot": "loot_tables/blocks/single/energy_furnace.json"
       }
      }
     }

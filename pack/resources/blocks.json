@@ -4,5 +4,9 @@
  "hinameplays:machine_frame": {
   "textures": "machine_frame",
   "sound": "stone"
+ },
+ "hinameplays:energy_conduit":{ 
+    "textures": "energy_conduit",
+    "sound": "iron_bars" 
  }
 }

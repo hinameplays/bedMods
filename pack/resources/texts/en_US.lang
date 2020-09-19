@@ -1,5 +1,8 @@
 ﻿##hinameplays pack
 tile.hinameplays:machine_frame.name=§2Machine Frame
+tile.hinameplays:energy_furnace.name=Energy Furnace
+tile.hinameplays:generator.name=Generator
+tile.hinameplays:energy_conduit.name=Energy Conduit
 ##Lucky traductions examples
 tile.effect99:lucky_block.name=§l§gLucky block
 tile.effect99:unlucky_block.name=§l§4Unlucky block
