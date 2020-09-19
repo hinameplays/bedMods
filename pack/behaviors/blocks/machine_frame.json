@@ -7,11 +7,12 @@
       "register_to_creative_menu": true
      },
      "components": {
-         "minecraft:destroy_time": 2,
+         "minecraft:destroy_time": 1,
          "minecraft:explosion_resistance": 1000000,
          "minecraft:block_light_emission": 0,
          "minecraft:block_light_absorption": 1,
-         "minecraft:map_color": "#426242"
+         "minecraft:map_color": "#426242",
+         "minecraft:loot": "loot_tables/blocks/quick_sand_block.json"
       }
      }
     }
