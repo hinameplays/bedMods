@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10",
+  "minecraft:recipe_shaped": {
+  "description": {
+    "identifier": "hinameplays:copper_block"
+    },
+    "tags": ["crafting_table"
+    ],
+      "pattern": [
+      "III",
+      "III",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "hinameplays:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "hinameplays:copper_block",
+      "count": 1
+    }
+    }
+  }

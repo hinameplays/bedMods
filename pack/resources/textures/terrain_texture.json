@@ -5,6 +5,8 @@
  "num_mip_levels": 4,
  "texture_data": {
   "machine_frame": {"textures": ["textures/blocks/machine_frame"] },
+  "copper_ore": {"textures": ["textures/blocks/copper_ore"] },
+  "copper_block": {"textures": ["textures/blocks/copper_block"] },
   "energy_conduit" : {
     "textures" : [
        "textures/blocks/energy_conduit_center",

@@ -3,19 +3,7 @@ tile.hinameplays:machine_frame.name=§2Machine Frame
 tile.hinameplays:energy_furnace.name=Energy Furnace
 tile.hinameplays:generator.name=Generator
 tile.hinameplays:energy_conduit.name=Energy Conduit
-##Lucky traductions examples
-tile.effect99:lucky_block.name=§l§gLucky block
-tile.effect99:unlucky_block.name=§l§4Unlucky block
-tile.effect99:good_luck_block.name=§l§aGood Luck block
-tile.effect99:withered_lucky_block.name=§l§7Withered Lucky block
-tile.effect99:lucky_drops.name=§l§6Lucky drops
-tile.effect99:setdrop.name=§l§8Setdrop
-tile.effect99:lucky_mobs.name=§l§3Lucky Mobs
-tile.effect99:lucky_structures.name=§l§cLucky Structures
-tile.effect99:setdrop_potato.name=§l§8Setdrop Potato
-tile.effect99:setdrop_ores.name=§l§8Setdrop Ores
-tile.effect99:setdrop2.name=§l§8Setdrop2
-item.lucky:lucky_apple.name=§eLucky Apple
-item.lucky:lucky_sword.name=§e§lLucky Sword
-item.lucky:creeper.name=creeper
-item.lucky:slimes.name=slimes
+tile.hinameplays:copper_block.name=§6Copper Block
+tile.hinameplays:copper_ore.name=§6Copper Ore
+item.hinameplays:copper_ingot.name=§6Copper Ingot
+

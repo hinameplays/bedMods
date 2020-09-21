@@ -1,0 +1,16 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:block": {
+     "description": {
+      "identifier": "hinameplays:copper_block",
+      "is_experimental": false,
+      "register_to_creative_menu": true
+     },
+     "components": {
+         "minecraft:destroy_time": 0.6,
+         "minecraft:block_light_emission": 0,
+         "minecraft:map_color": "#ff8c12",
+         "minecraft:loot": "loot_tables/blocks/single/copper_block.json"
+      }
+     }
+    }

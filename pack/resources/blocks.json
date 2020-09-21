@@ -5,6 +5,14 @@
   "textures": "machine_frame",
   "sound": "stone"
  },
+ "copper_block": {
+   "textures": "copper_block",
+   "sound": "iron_block"
+  },
+  "copper_ore": {
+   "textures": "copper_ore",
+   "sound": "stone"
+  },
  "energy_conduit":{ 
     "textures": {
       "down" : "blast_furnace_top",

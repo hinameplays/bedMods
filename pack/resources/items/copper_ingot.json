@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hinameplays:copper_ingot",
+      "category": "Miscellanous"
+    },
+    "components": {
+      "minecraft:icon": "copper_ingot",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
