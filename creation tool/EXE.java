@@ -29,6 +29,7 @@ class EXE {
             cmd = parser.parse(options, args);
             inputFilePath = cmd.getOptionValue("input");
             inputMode = Integer.valueOf(cmd.getOptionValue("mode"));
+            
         } catch (ParseException e) {
             System.out.println(e.getMessage());
             formatter.printHelp("utility-name", options);

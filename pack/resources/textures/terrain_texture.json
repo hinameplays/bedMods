@@ -9,9 +9,9 @@
   "copper_block": {"textures": ["textures/blocks/copper_block"] },
   "energy_conduit" : {
     "textures" : [
-       "textures/blocks/energy_conduit_center",
-       "textures/blocks/energy_conduit_connect",
-       "textures/blocks/energy_conduit_top"
+       "textures/blocks/blast_furnace_center",
+       "textures/blocks/blast_furnace_connect",
+       "textures/blocks/blast_furnace_top"
     ]
  }
 
