@@ -4,10 +4,9 @@
     "description": {
       "identifier": "hinameplays:copper_ingot"
     },
-     "tags": ["crafting_table", "gui"],
      "priority": 0,
       "ingredients": {
-        "item": "hianmeplays:copper_block",
+        "item": "hinameplays:copper_block",
           "count": 1
        },
       "result": {

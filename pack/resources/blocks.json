@@ -1,19 +1,19 @@
 {
  "format_version":
   [ 1,  1, 0 ],
- "machine_frame": {
+ "hinameplays:machine_frame": {
   "textures": "machine_frame",
   "sound": "stone"
  },
- "copper_block": {
+ "hinameplays:copper_block": {
    "textures": "copper_block",
    "sound": "iron_block"
   },
-  "copper_ore": {
+  "hinameplays:copper_ore": {
    "textures": "copper_ore",
    "sound": "stone"
   },
- "energy_conduit":{ 
+ "hinameplays:energy_conduit":{ 
     "textures": {
       "down" : "blast_furnace_top",
       "east" : "blast_furnace_side",
