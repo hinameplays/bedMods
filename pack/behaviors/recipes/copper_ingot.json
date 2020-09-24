@@ -4,7 +4,7 @@
     "description": {
       "identifier": "hinameplays:copper_ingot"
     },
-     "priority": 0,
+     "priority": 1,
       "ingredients": {
         "item": "hinameplays:copper_block",
           "count": 1
@@ -13,20 +13,6 @@
             "item": "hinameplays:copper_ingot",
             "count": 9
           }
-      },
-  "minecraft:recipe_furnace": {
-    "description": {
-      "identifier": "hinameplays:copper_ingot"
-    },
-    "tags": ["furnace", "blast_furnace"],
-    "input": {
-      "item": "hinameplays:copper_ore",
-      "data": 0,
-      "count": 1
-    },
-    "output": "hinameplays:copper_ingot",
-    "count": 1
-    }
-  
+      }  
 }
   
